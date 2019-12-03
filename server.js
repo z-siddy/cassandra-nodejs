@@ -6,4 +6,4 @@ app.use(express.json());
 const cassandraRouter = require("./routes/cassandra");
 app.use("/cassandra", cassandraRouter);
 
-app.listen(3000, () => console.log("Running on port 3000"));
+app.listen(4200, () => console.log("Running on port 4200"));
